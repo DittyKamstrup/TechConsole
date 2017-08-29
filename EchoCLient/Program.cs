@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechConsole
+namespace EchoCLient
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Server server = new Server();
-            server.Start();
+            Client client = new Client();
+            client.Start();
 
-            Console.ReadLine(); //Se skærmbillede
+            Console.ReadLine();
         }
     }
 }

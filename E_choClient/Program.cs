@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TechConsole
+namespace E_choClient
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Server server = new Server();
-            server.Start();
 
-            Console.ReadLine(); //Se skærmbillede
         }
     }
 }

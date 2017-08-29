@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechConsole", "TechConsole\TechConsole.csproj", "{9E2D49F1-DEAB-41F8-AD73-83858BCDBD14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoCLient", "EchoCLient\EchoCLient.csproj", "{2D89CDA8-570C-4811-AC2E-02E36C48052C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9E2D49F1-DEAB-41F8-AD73-83858BCDBD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E2D49F1-DEAB-41F8-AD73-83858BCDBD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E2D49F1-DEAB-41F8-AD73-83858BCDBD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D89CDA8-570C-4811-AC2E-02E36C48052C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D89CDA8-570C-4811-AC2E-02E36C48052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D89CDA8-570C-4811-AC2E-02E36C48052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D89CDA8-570C-4811-AC2E-02E36C48052C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
