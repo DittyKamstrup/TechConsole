@@ -27,6 +27,7 @@ namespace TechConsole
             using (StreamWriter sw = new StreamWriter(ns))
             {
                 String inlinje = sr.ReadLine();
+                Console.WriteLine("Server modtaget : " + inlinje);
                 sw.WriteLine(inlinje);
                 sw.Flush();
             }
