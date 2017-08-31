@@ -27,8 +27,10 @@ namespace TechConsole
             using (StreamWriter sw = new StreamWriter(ns))
             {
                 String inlinje = sr.ReadLine();
-                Console.WriteLine("Server modtaget : " + inlinje);
-                sw.WriteLine(inlinje);
+                int nr = inlinje.Split(' ').Length;
+                Console.WriteLine("Server har modtaget : " + inlinje);
+                Console.WriteLine("Antal ord : " + nr);
+                sw.WriteLine(nr);
                 sw.Flush();
             }
         }
